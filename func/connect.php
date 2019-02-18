@@ -10,8 +10,8 @@ error_reporting(0); // No errors. Use this if the site has activity and you don'
 
 $host = "localhost";
 $user = "admin";
-$pass = "notonigiri7129";
-$name = "tetrimus";
+$pass = "gW4%fS3Sf%6^7^&raAs";
+$name = "plasmatio";
 
 $conn = new MySQLi($host, $user, $pass, $name);
 
