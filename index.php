@@ -41,7 +41,7 @@ $round = ceil($total_users / 10) * 10;
 </head>
 <body>
 <nav class="navbar navbar-expand-lg navbar-light bg-light" style="background: #fff!important;">
-<a class="navbar-brand" href="../home">Tetrimus</a>
+<a class="navbar-brand" href="../home">Plasmatio</a>
 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
 <span class="navbar-toggler-icon"></span>
 </button>
@@ -63,9 +63,7 @@ $round = ceil($total_users / 10) * 10;
       <div class="container">
         <div class="row">
           <div class="col-md-7">
-			  <h3>Tetrimus is a new up and coming sandbox game. Join today for free!</div></h3>
-			  <h5>Join over <?php echo $round ?> users playing today.<br>
-			  What are you waiting for?</h5>
+			  <h3>Plasmatio is a new up and coming sandbox game. Join the expanding community today!</div></h3>
         </div>
 
       </div>
@@ -79,22 +77,6 @@ $round = ceil($total_users / 10) * 10;
     </header>
 
 <center>
-	<br>
-	<h3>Tetrimus' Statistics</h3>
-<h4>
-<div class="container">
-  <div class="row">
-    <div class="col-sm">
-<?php echo "<strong>$total_users</strong>"; ?> Users Registered <br><br>
-<?php echo "<strong>$total_items</strong>"; ?> Items Created 
-</div>
-	<div class="col-sm">
-<?php echo "<strong>$online_users</strong>"; ?> Users Online <br><br>
-<?php echo "<strong>$total_replies</strong>"; ?> Forum Replies 
-</div>
-	<div class="col-sm">
-<?php echo "<strong>$total_threads</strong>"; ?> Threads Created <br><br>
-<?php echo "<strong>$total_clubs</strong>"; ?> Clubs Created 
 
 
 	</div>
