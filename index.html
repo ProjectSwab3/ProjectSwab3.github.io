@@ -5,11 +5,6 @@ if($loggedIn){
 }
 ?>
    
-
-$fetch_online_users = $conn->query("SELECT * FROM users WHERE $now < expireTime");
-$online_users = mysqli_num_rows($fetch_online_users);
-$round = ceil($total_users / 10) * 10;
-?>
 <!DOCTYPE html>
 <html>
 <head>
