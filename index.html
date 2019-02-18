@@ -4,23 +4,7 @@ if($loggedIn){
   header("Location: ../home/");
 }
 ?>
-    <?php
-$fetch_users = $conn->query("SELECT * FROM users");
-$total_users = mysqli_num_rows($fetch_users);
-
-$fetch_threads = $conn->query("SELECT * FROM threads");
-$total_threads = mysqli_num_rows($fetch_threads);
-
-$fetch_items = $conn->query("SELECT * FROM store");
-$total_items = mysqli_num_rows($fetch_items);
-
-$fetch_replies = $conn->query("SELECT * FROM replies");
-$total_replies = mysqli_num_rows($fetch_replies);
-
-$fetch_clubs = $conn->query("SELECT * FROM clubs");
-$total_clubs = mysqli_num_rows($fetch_clubs);
-
-$now = time();
+   
 
 $fetch_online_users = $conn->query("SELECT * FROM users WHERE $now < expireTime");
 $online_users = mysqli_num_rows($fetch_online_users);
@@ -29,7 +13,7 @@ $round = ceil($total_users / 10) * 10;
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Tetrimus | Build, Play, Achieve</title>
+	<title>Plasmatio | The Imagination Platform </title>
 	<meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="shortcut icon" type="image/png" href="../assets/images/tetrimus.png"/>
   	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
